@@ -1,0 +1,158 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.pt-introduction {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+
+}
+.pt-button {
+    background-color: rgb(143, 1, 143);
+    font-size:small;
+    border-radius: 5px;
+    padding: 8px;
+    color: white;
+}
+
+.pt-button:hover {
+    background-color: rgb(170, 14, 170)
+}
+
+.pt-button:active {
+    background-color: rgb(240, 52, 240);
+}
+.pt-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+}
+.pt-vsms {
+    display: flex;
+}
+
+
+.pt-header {
+    color: purple;
+    font-weight: bold;
+    font-size: xx-large;
+    margin-bottom: 20px;
+}
+.pt-subheader {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    max-width: 50%;
+}
+
+.pt-stitle {
+    margin: auto;
+    font-size: medium;
+    font-weight: bold;
+    color: purple;
+}
+.pt-subheader .pt-paragraph {
+    color: blue;
+    font-size: smaller;
+    max-width: 80%;
+}
+
+.pt-header .fill {
+    color:rgb(243, 178, 14);
+}
+
+
+.pt-paragraph {
+    margin: auto;
+    font-size: medium;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    max-width: 90%;
+}
+
+.pt-footer-container {
+    margin-top: 30px;
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+    background-color: #3A1078;
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    
+}
+
+.pt-footer-subcontainer {
+    margin-top: 40px;
+    flex-basis: 50%;
+    text-align: left;
+    text-align: center;
+    gap: 10px;
+}
+
+.pt-footer-header {
+    font-weight: bold;
+    margin-bottom: 10px;
+
+    
+}
+.pt-footer-paragraph {
+  
+}
+
+.pt-wrap {
+    display: flex;
+    margin-top: 50px;
+    flex-wrap: wrap;
+
+}
+
+.pt-item {
+    display: flex;
+    margin:auto;
+    max-width: 90%;
+    margin-bottom: 40px;
+}
+
+.pt-item img {
+    max-width: 40%;
+    border-radius: 10px;
+    opacity: 80%;
+    transition: width 2s, height 2s, transform 2s; ;
+
+}
+
+.pt-item img:hover {
+    opacity: 100%;
+    transform: rotateX(20deg) rotateY(-20deg);
+}
+
+.pt-gallery {
+    display: flex;
+    margin-bottom: 100px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.pt-card {
+    background-color: rgb(247, 239, 247);
+    border-radius: 10px;
+    overflow: hidden;
+}
+.pt-card span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:xx-small;
+
+}
+.pt-card img{
+    width: 200px;
+}
+
+
+
